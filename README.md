@@ -5,12 +5,12 @@ Projeto do curso de Visão Computacional do [Sigmoidal](https://sigmoidal.ai/). 
 ### Estrutura do Projeto 
 A estrutura do projeto é a seguinte: 
 
+    .
     |-- arquivos/alarm.wav
     |-- src/main.py
     |-- src/detector.py 
     |-- src/utils.py 
     |-- src/requirements.txt
-
 
 ### Descrição dos arquivos:
 
@@ -19,6 +19,13 @@ A estrutura do projeto é a seguinte:
 -  detector.py: script Python com a classe para uso do pacote mediapipe. 
 - uteis.py: script Python com funções utilitárias. 
 - requirements.txt: arquivo que lista as dependências necessárias para executar o programa.
+
+### Pré-requisitos:
+Para executar este projeto, você precisa ter o Python instalado em seu sistema. Executre os comando abaixo para instalar as dependências do projeto:
+
+    py -3 -m venv venv
+    venv\Scripts\activate.bat
+    pip install -r requirements.txt
 
 ### Referências Bibliográficas: 
 SOUKUPOVA, Tereza; CECH, Jan. [Real-time eye blink detection using facial landmarks.](https://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf) In: 21st computer vision winter workshop, Rimske Toplice, Slovenia. 2016.
